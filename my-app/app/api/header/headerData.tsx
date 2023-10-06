@@ -5,7 +5,7 @@ export const headerData = [
       },
       {
         menuItem: "About",
-        menuLink:"",
+        menuLink:"about",
       },
       {
         menuItem: "Services",

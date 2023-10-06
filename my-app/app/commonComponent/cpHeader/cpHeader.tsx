@@ -21,7 +21,7 @@ const CpHeader = async ()=>{
         {headerData.map((item, index) => {
               return (
                 <li  key={index}>
-                   <Link
+                   <Link 
                     href={{
                       pathname: `/${item.menuLink}`,
                     }}

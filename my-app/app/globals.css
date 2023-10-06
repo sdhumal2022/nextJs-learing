@@ -28,7 +28,7 @@ body {
 .cp-header{
   background: #fff;
   box-shadow: 5px 5px 5px #ccc;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 .sidebar-list{
   display: flex;
