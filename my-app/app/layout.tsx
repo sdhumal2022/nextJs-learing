@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import CpHeader from './commonComponent/cpHeader/cpHeader'
+import CpLoader from './commonComponent/cpLoader/cpLoader'
 
 const roboto = Roboto({ subsets: ['latin'],
 weight:'400',

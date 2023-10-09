@@ -1,16 +1,14 @@
 'use client'
  
 import {} from 'react'
+import CpBanner from '../commonComponent/CpBanner/cpBanner'
 
 
 const CpAbout =  ()=>{
 
     return(
         <>
-        <div className='cp-about'>
-       <h1> About us page</h1>
-       
-    </div>
+        <CpBanner title={"About Banner"}/>
         </>
     )
 }
