@@ -3,15 +3,20 @@
 import {} from 'react'
 import Link from "next/link";
 
-  async function getheaderData() {
-      let response = await fetch("http://localhost:3000/api/header");
-      response = await response.json();
-      console.log(response, "response");
-      return response;
-    }
+  // async function getheaderData() {
+  //     let response = await fetch("http://localhost:3000/api/header");
+  //     response = await response.json();
+  //     console.log(response, "response");
+  //     return response;
+  //   }
+
+    const  getheaderData = async () =>{
+    const res = await fetch("http://localhost:3000/api/header");
+    return res.json();
+   }
 
 const CpHeader = async ()=>{
-    let headerData = await getheaderData();
+    const headerData = await getheaderData();
     console.log(headerData, "data");
 
     return(
